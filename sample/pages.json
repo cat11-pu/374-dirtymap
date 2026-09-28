@@ -1,0 +1,15 @@
+{
+  "budget": 2,
+  "bad_page_code": "E_BAD_PAGE",
+  "dup_code": "E_DUP_DIRTY",
+  "clean_code": "E_CLEAN",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "dirty": [], "flushed": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "mark", "page": 3 },
+    { "id": 2, "kind": "mark", "page": 1 },
+    { "id": 3, "kind": "flush" },
+    { "id": 4, "kind": "mark", "page": 3 },
+    { "id": 5, "kind": "flush" }
+  ]
+}
